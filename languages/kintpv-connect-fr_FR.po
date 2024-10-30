@@ -1,0 +1,315 @@
+# Copyright (C) 2022 Kinhelios
+# This file is distributed under the same license as the KinTPV WooConnect plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: KinTPV WooConnect 8.107\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kintpv-connect\n"
+"POT-Creation-Date: 2022-05-31T14:02:22+00:00\n"
+"PO-Revision-Date: 2022-05-31 16:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: kintpv-connect\n"
+
+#. Plugin Name of the plugin
+msgid "KinTPV WooConnect"
+msgstr "KinTPV WooConnect"
+
+#. Plugin URI of the plugin
+msgid "http://www.kintpv.com"
+msgstr "http://www.kintpv.com"
+
+#. Description of the plugin
+msgid "KinTPV Synchronisation plugin with WooCommerce"
+msgstr "Synchronisation de KinTPV avec WooCommerce"
+
+#. Author of the plugin
+msgid "Kinhelios"
+msgstr "Kinhelios"
+
+#. Author URI of the plugin
+msgid "http://www.kinhelios.com"
+msgstr "https://www.kinhelios.com"
+
+#: templates/configuration.php:46
+msgid "Maintenance mode"
+msgstr "Mode maintenance"
+
+#: templates/configuration.php:48
+msgid ""
+"If the maintenance mode is active on your site, the synchronisation with "
+"KinTPV will not be possible"
+msgstr ""
+"Si le mode de maintenance est activé sur votre site, la synchronisation ne "
+"pourra pas être faite"
+
+#: templates/configuration.php:71
+msgid "WooCommerce API Key"
+msgstr "Clé d'API WooCommerce"
+
+#: templates/configuration.php:74
+msgid "Key"
+msgstr "Clé"
+
+#: templates/configuration.php:77
+msgid "Secure"
+msgstr "Sécurité"
+
+#: templates/configuration.php:89
+msgid "Automatic publication"
+msgstr "Publication automatique"
+
+#: templates/configuration.php:91
+msgid "State at creation"
+msgstr "État à la création"
+
+#: templates/configuration.php:97
+msgid "Published"
+msgstr "Publié"
+
+#: templates/configuration.php:104
+msgid "Waiting for validation"
+msgstr "En attente de relecture"
+
+#: templates/configuration.php:112
+msgid "Draft"
+msgstr "Brouillon"
+
+#: templates/configuration.php:122
+msgid "No stock Products"
+msgstr "Produits hors stock"
+
+#: templates/configuration.php:127
+msgid "No stock products are virtual"
+msgstr "Les produits hors stocks sont définis comme \"virtuels\""
+
+#: templates/configuration.php:134
+msgid "Taxes link"
+msgstr "Liaison des taxes"
+
+#: templates/configuration.php:141
+msgid "VAT Class"
+msgstr "Classe TVA"
+
+#: templates/configuration.php:142
+msgid "VAT Rate"
+msgstr "Taux TVA"
+
+#: templates/configuration.php:159
+msgid "Choose class"
+msgstr "Choisir classe"
+
+#: templates/configuration.php:173
+msgid "Choose rate"
+msgstr "Choisir taux"
+
+#: templates/configuration.php:197
+msgid "Carriers link"
+msgstr "Liaison des transporteurs"
+
+#: templates/configuration.php:221
+msgid "Choose carrier"
+msgstr "Choisir transporteur"
+
+#: templates/configuration.php:243
+msgid "Checkout methods"
+msgstr "Types de paiement"
+
+#: templates/configuration.php:276
+msgid "Choose checkout method"
+msgstr "Choisir type"
+
+#: templates/configuration.php:298
+msgid "Order states"
+msgstr "État des commandes"
+
+#: templates/configuration.php:305
+msgid "WooCommerce state"
+msgstr "État WooCommerce"
+
+#: templates/configuration.php:306
+msgid "Order is \"validated\" in KinTPV"
+msgstr "Commande \"validée\" sur KinTPV"
+
+#: templates/configuration.php:345
+msgid "Orders returning to KinPTV"
+msgstr "Retour des commandes"
+
+#: templates/configuration.php:348
+msgid "Quantity send"
+msgstr "Nombre envoyé"
+
+#: templates/configuration.php:356
+msgid "Quantity of orders to return to KinTPV for each synchronisation"
+msgstr "Nombre de commandes retournées à KinTPV à chauqe synchronisation"
+
+#: templates/configuration.php:370
+msgid "In progress"
+msgstr "En cours"
+
+#: templates/configuration.php:383
+msgid "Done"
+msgstr "Terminés"
+
+#: templates/configuration.php:399
+msgid "Abandonned"
+msgstr "Abandonnés"
+
+#: templates/configuration.php:424
+msgid "Debugging"
+msgstr "Déboguage"
+
+#: templates/configuration.php:426
+msgid "Barcode"
+msgstr "Code-barres"
+
+#: templates/configuration.php:431
+msgid "Return"
+msgstr "Retour"
+
+#: templates/configuration.php:446
+msgid "Logs"
+msgstr "Logs"
+
+#: templates/configuration.php:448
+msgid "Open logs file"
+msgstr "Ouvrir le fichier de logs"
+
+#: templates/configuration.php:449
+msgid "Logfile Size : "
+msgstr "Taille du fichier de logs :"
+
+#: templates/configuration.php:454
+msgid "Clear logs file"
+msgstr "Vider"
+
+#: templates/configuration.php:468
+msgid "Import configuration"
+msgstr "Configuration de l'import"
+
+#: templates/configuration.php:473
+msgid "Fields"
+msgstr "Champs"
+
+#: templates/configuration.php:474
+msgid "Imported at creation"
+msgstr "Importé à la création"
+
+#: templates/configuration.php:475
+msgid "Imported at update"
+msgstr "Importé à la modification"
+
+#: templates/configuration.php:483
+msgid "Allow Creation / Edition"
+msgstr "Autoriser Création / Modification"
+
+#: templates/configuration.php:489 templates/configuration.php:496
+msgid "Check / Uncheck all"
+msgstr "Cocher tout / Décocher tout"
+
+#: templates/configuration.php:502
+msgid "Product name"
+msgstr "Nom du produit"
+
+#: templates/configuration.php:513
+msgid "Permalink (Simplified URL)"
+msgstr "Permalien (URL simplifiée)"
+
+#: templates/configuration.php:523
+msgid "KinTPV MetaKeyword for product tags"
+msgstr "Meta-Keyword (KinTPV) pour les étiquettes produit"
+
+#: templates/configuration.php:534
+msgid "Price"
+msgstr "Prix"
+
+#: templates/configuration.php:543
+msgid "Taxes"
+msgstr "Taxes"
+
+#: templates/configuration.php:554
+msgid "Weight"
+msgstr "Poids"
+
+#: templates/configuration.php:563
+msgid "Short descritpion"
+msgstr "Description courte"
+
+#: templates/configuration.php:572
+msgid "Description"
+msgstr "Description"
+
+#: templates/configuration.php:583
+msgid "Stock (product and variations)"
+msgstr "Stock (produit et déclinaisons)"
+
+#: templates/configuration.php:594
+msgid "Variations (to import product variations, check this option)"
+msgstr ""
+"Déclinaisons (Si vous souhaitez importer les déclinaisons, vous devez cocher "
+"cette option"
+
+#: templates/configuration.php:603
+msgid "Variation price"
+msgstr "Prix de la déclinaison"
+
+#: templates/configuration.php:612
+msgid "Variation weight"
+msgstr "Poids de la déclinaison"
+
+#: templates/configuration.php:623
+msgid "Promotional prices"
+msgstr "Prix promo / en solde"
+
+#: templates/configuration.php:634
+msgid "Possible to order if out of stock"
+msgstr "Commande si rupture de stock"
+
+#: templates/configuration.php:645
+msgid "Categories"
+msgstr "Catégories"
+
+#: templates/configuration.php:654
+msgid "Category name"
+msgstr "Nom de la catégorie"
+
+#: templates/configuration.php:663
+msgid "Category descritpion"
+msgstr "Description de la catégorie"
+
+#: templates/configuration.php:672
+msgid "Category order position"
+msgstr "Position de la catégorie"
+
+#: templates/configuration.php:681
+msgid "Product position in the category"
+msgstr "Position de produit dans la catégorie"
+
+#: templates/configuration.php:696 templates/configuration.php:698
+msgid "Criteria"
+msgstr "Critère"
+
+#: templates/configuration.php:712
+msgid ""
+"Product images (Attention : If you have uploaded product images directly in "
+"WooCommerce, it will be deleted at the next update from KinPTV"
+msgstr ""
+"Images produit (Attention, si vous avez inséré des photos directement depuis "
+"WooCommerce, celles ci seront supprimées par l'import !)"
+
+#: templates/configuration.php:721
+msgid ""
+"Category images (Attention : If you have uploaded product images directly in "
+"WooCommerce, it will be deleted at the next update from KinPTV"
+msgstr ""
+"Images catégorie (Attention, si vous avez inséré des photos directement "
+"depuis WooCommerce, celles ci seront supprimées par l'import !)"
+
+#: templates/configuration.php:740
+msgid "Save changes"
+msgstr "Enregistrer les changements"
